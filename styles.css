@@ -521,6 +521,17 @@ header {
     height: 90px; 
   }
 
+  /* card-image-area */
+
+  main {
+    margin: 40px; 
+  }
+
+  .collective-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;  
+  }
+
 }
 
 @media screen and (max-width: 550px) {
@@ -564,6 +575,16 @@ header {
 
   .admin {
     padding: 0px; 
+  }
+
+  /* card-image-area */
+
+  .collective-title {
+    text-align: center; 
+  }
+
+  .collective-grid {
+    grid-template-columns: 1fr; 
   }
 
 }
