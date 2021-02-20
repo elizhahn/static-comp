@@ -276,43 +276,53 @@ template {
 html {
   height: 100%;
 }
+
 body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: #212121;
 }
+
 header {
   background-color: #607D8B;
   display: flex;
   height: 170px;
 }
+
 .nav-btn {
   font-size: 1.1em;
   color: #212121;
 }
+
 .navigation {
   flex: 1;
 }
+
 .nav-list {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  display: flex;
+  display: -webkit-flex;
   list-style-type: none;
   align-items: flex-end;
 }
+
 .nav-item {
   display: flex;
   padding: 0px 20px 40px 20px;
 }
+
 .nav-icon {
   color: #CDDC39;
   width: 23px;
+  height: 23px; 
   margin-right: 5px;
 }
+
 .nav-btn {
   border: none;
   background-color: #607D8B;
 }
+
 .page-info {
   flex: 1;
   display: flex;
@@ -321,33 +331,40 @@ header {
   justify-content: space-between;
   margin: 15px 20px 0px 20px;
 }
+
 .admin {
   display: flex;
 }
+
 .admin-icon {
   fill: #CFD8DC;
   height: 30px;
   width: 30px;
 }
+
 .admin-btn{
   color: #CDDC39;
   border: none;
   background-color:  #607D8B;
 }
+
 .admin-arrow-icon {
   fill: #CDDC39;
   height: 20px;
   width: 20px;
   padding-top: 5px;
 }
+
 .logo {
   display: flex;
   align-items: flex-end;
 }
+
 .logo-title {
   color: #CFD8DC;
   font-size: 3em;
 }
+
 .logo-img {
   height: 115px;
   margin: 0px -10px 10px 0px;
