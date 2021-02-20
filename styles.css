@@ -514,7 +514,7 @@ header {
  }
 
  .location-title {
-   font-size: .8em; 
+   font-size: .7em; 
    margin: 0px;
  }
 
@@ -522,11 +522,20 @@ header {
    margin: 5px 0px 0px 0px; 
  }
 
+ .artist-works-container {
+   margin: 20px 0px; 
+ }
 
+ .artwork-title {
+   font-size: .7em;
+   margin: 0px 0px 5px 0px;   
+ }
 
-
-
-
+ .artist-works-num {
+   margin: 0px; 
+   color: #CDDC39;
+   font-size: 2em; 
+ }
 
  /* -----------------media queries-------------------- */
 
