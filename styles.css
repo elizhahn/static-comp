@@ -383,7 +383,7 @@ header {
   }
 
   .nav-item {
-    padding-bottom: 25px; 
+    padding: 0px 10px 25px 0px; 
   }
 
   .page-info {
@@ -405,6 +405,51 @@ header {
 
   .logo-img {
     height: 90px; 
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+
+  .page-info {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;  
+  }
+
+  .nav-btn {
+    display: none; 
+  }
+
+  .nav-list {
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;  
+  }
+
+  .nav-item {
+    padding-bottom: 15px; 
+  }
+
+  .nav-icon {
+    width: 30px; 
+    height:30px; 
+  }
+
+  .logo{
+    padding: 0px;  
+  }
+
+  .logo-title {
+    margin-bottom: 20px; 
+  }
+
+  .logo-img {
+    margin-bottom: 0px; 
+  }
+
+  .admin {
+    padding: 0px; 
   }
 
 }
