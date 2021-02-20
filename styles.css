@@ -372,7 +372,7 @@ header {
 /*------------main area------------------------- */
 
  main {
-  margin: 20px;
+  margin: 30px;
  }
 
  .collective-title {
@@ -383,8 +383,14 @@ header {
 
  .collective-grid {
    display: grid;
-   grid-template-columns: 25% 25% 25% 25%;
-   grid-template-rows: 50% 50%;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 50% 50%; 
+   column-gap: 10px;
+   row-gap: 10px; 
+ }
+
+ .collective-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
  }
 
  .card-img {
@@ -444,13 +450,13 @@ header {
   display: flex; 
   justify-content: space-between;
   color: #CFD8DC; 
+  padding: 10px; 
 }
 
  .arrow-icon-circle {
    display: inline-block;
    border-radius: 50%;
    background-color: #FFF;
-   align-self: flex-start; 
    margin: 10px; 
  }
 
@@ -461,7 +467,16 @@ header {
    padding: 10px; 
  }
 
- .card-views {
+ .card-views-container {
+   padding: 8px; 
+ }
+
+ .card-views-text {
+   font-size: .9em; 
+   display: inline; 
+ }
+
+ .card-views-num {
    font-size: 2em;
    margin: 0px;   
  }
