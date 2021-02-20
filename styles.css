@@ -513,6 +513,17 @@ header {
    padding: 20px 10px; 
  }
 
+ .location-title {
+   font-size: .8em; 
+   margin: 0px;
+ }
+
+ .artist-location {
+   margin: 5px 0px 0px 0px; 
+ }
+
+
+
 
 
 
