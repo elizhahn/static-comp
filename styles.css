@@ -324,7 +324,6 @@ header {
 }
 
 .page-info {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -368,4 +367,44 @@ header {
 .logo-img {
   height: 115px;
   margin: 0px -10px 10px 0px;
+}
+
+
+@media screen and (max-width: 860px) {
+
+  /* header */
+
+  header {
+    flex-direction: column-reverse;
+  }
+
+  .nav-list {
+    justify-content: center; 
+  }
+
+  .nav-item {
+    padding-bottom: 25px; 
+  }
+
+  .page-info {
+    flex-direction: row-reverse; 
+    align-items: flex-start; 
+  }
+
+  .admin {
+    padding-top: 10px; 
+  }
+
+  .logo {
+    padding-bottom: 20px; 
+  }
+
+  .logo-title {
+    font-size: 2.5em; 
+  }
+
+  .logo-img {
+    height: 90px; 
+  }
+
 }
