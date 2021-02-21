@@ -12,7 +12,6 @@ body {
 header {
   background-color: #607D8B;
   display: flex;
-  height: 170px;
 }
 
 .nav-btn {
@@ -369,4 +368,10 @@ header {
     grid-template-columns: 1fr; 
   }
 
+}
+
+/* -------------------state---------------------- */
+
+.activated {
+  color: #CFD8DC;
 }
