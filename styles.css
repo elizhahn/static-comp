@@ -369,6 +369,175 @@ header {
   margin: 0px -10px 10px 0px;
 }
 
+/*------------main area------------------------- */
+
+ main {
+  margin: 30px;
+ }
+
+ .collective-title {
+   font-size: 2.5em;
+   font-weight: 500;
+   padding: 10px 0px;
+ }
+
+ .collective-grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   column-gap: 10px;
+   row-gap: 10px;
+   min-height: 0; 
+   min-width: 0; 
+ }
+
+ .collective-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  min-width: 0; 
+ }
+
+ .card-img {
+  height: 150px;
+  background-size: 350px;
+ }
+
+ .collective-img-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url("/assets/Wind\ Dancers\ copy.jpg");
+  background-position: 50% 50%;
+ }
+
+ .collective-img-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+  url("/assets/image-from-rawpixel-id-2055583-jpeg.jpg");
+  background-position: 50% 50%;
+ }
+
+ .collective-img-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+  url("assets/image-from-rawpixel-id-431308-jpeg.jpg");
+  background-position: 50% 50%;
+ }
+
+ .collective-img-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+  url("/assets/image-from-rawpixel-id-461081-jpeg.jpg");
+  background-position: 50% 65%;
+ }
+
+ .collective-img-5 {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+   url("/assets/image-from-rawpixel-id-895017-jpeg.jpg");
+  background-position: 50% 20%;
+ }
+
+ .collective-img-6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+  url("/assets/image-from-rawpixel-id-2224078-jpeg.jpg");
+  background-position: 50% 50%;
+ }
+
+ .collective-img-7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+  url("/assets/image-from-rawpixel-id-2906688-jpeg.jpg");
+  background-position: 50% 50%;
+ }
+
+ .collective-img-8 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+  url("/assets/image-from-rawpixel-id-2940042-jpeg.jpg");
+  background-position: 50% 15%;
+ }
+ 
+ .card-icon-views-container {
+  display: flex; 
+  justify-content: space-between;
+  color: #CFD8DC; 
+  padding: 10px; 
+}
+
+ .arrow-icon-circle {
+   display: inline-block;
+   border-radius: 50%;
+   background-color: #FFF;
+   margin: 10px; 
+ }
+
+ .arrow-icon {
+   width: 40px;
+   height: 40px;
+   color: #212121;
+   padding: 10px; 
+ }
+
+ .card-views-container {
+   padding: 8px; 
+ }
+
+ .card-views-text {
+   font-size: .9em; 
+   display: inline; 
+ }
+
+ .card-views-num {
+   font-size: 2em;
+   margin: 0px;   
+ }
+
+ /* ----------------collective-card-info---------------- */
+
+ .collective-card-info-container {
+   list-style-type: none;
+   padding: 0px; 
+   margin: 20px; 
+   box-sizing: border-box; 
+ }
+
+ .artist-name {
+   margin: 0px;  
+ }
+
+ .card-date {
+   color: #757575;
+   font-size: .8em;  
+ }
+
+ .artist-personal-link-container { 
+   margin: 20px 0px;  
+   background-color: #CFD8DC; 
+ }
+
+ .artist-personal-link {
+   word-wrap: break-word; 
+   color: #757575; 
+   font-size: .8em; 
+   padding: 20px 10px; 
+ }
+
+ .location-title {
+   font-size: .7em; 
+   margin: 0px;
+ }
+
+ .artist-location {
+   margin: 5px 0px 0px 0px; 
+ }
+
+ .artist-works-container {
+   margin: 20px 0px; 
+ }
+
+ .artwork-title {
+   font-size: .7em;
+   margin: 0px 0px 5px 0px;   
+ }
+
+ .artist-works-num {
+   margin: 0px; 
+   color: #CDDC39;
+   font-size: 2em; 
+ }
+
+ /* -----------------media queries-------------------- */
 
 @media screen and (max-width: 860px) {
 
@@ -405,6 +574,17 @@ header {
 
   .logo-img {
     height: 90px; 
+  }
+
+  /* card-image-area */
+
+  main {
+    margin: 40px; 
+  }
+
+  .collective-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;  
   }
 
 }
@@ -450,6 +630,16 @@ header {
 
   .admin {
     padding: 0px; 
+  }
+
+  /* card-image-area */
+
+  .collective-title {
+    text-align: center; 
+  }
+
+  .collective-grid {
+    grid-template-columns: 1fr; 
   }
 
 }
