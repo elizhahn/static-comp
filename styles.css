@@ -136,31 +136,31 @@ header {
 
  .collective-img-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-  url("assets/image-from-rawpixel-id-431308-jpeg.jpg");
+  url("./assets/image-from-rawpixel-id-431308-jpeg.jpg");
   background-position: 50% 50%;
  }
 
  .collective-img-4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-  url("assets/image-from-rawpixel-id-461081-jpeg.jpg");
+  url("./assets/image-from-rawpixel-id-461081-jpeg.jpg");
   background-position: 50% 65%;
  }
 
  .collective-img-5 {
   background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-   url("assets/image-from-rawpixel-id-895017-jpeg.jpg");
+   url("./assets/image-from-rawpixel-id-895017-jpeg.jpg");
   background-position: 50% 20%;
  }
 
  .collective-img-6 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-  url("assets/image-from-rawpixel-id-2224078-jpeg.jpg");
+  url("./assets/image-from-rawpixel-id-2224078-jpeg.jpg");
   background-position: 50% 50%;
  }
 
  .collective-img-7 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-  url("assets/image-from-rawpixel-id-2906688-jpeg.jpg");
+  url("./assets/image-from-rawpixel-id-2906688-jpeg.jpg");
   background-position: 50% 50%;
  }
 
