@@ -124,13 +124,13 @@ header {
 
  .collective-img-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url("assets/Wind\ Dancers\ copy.jpg");
+  url("./assets/Wind\ Dancers\ copy.jpg");
   background-position: 50% 50%;
  }
 
  .collective-img-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-  url("assets/image-from-rawpixel-id-2055583-jpeg.jpg");
+  url("./assets/image-from-rawpixel-id-2055583-jpeg.jpg");
   background-position: 50% 50%;
  }
 
